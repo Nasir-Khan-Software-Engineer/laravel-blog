@@ -32,15 +32,15 @@ Route::post('/contact/send-email', [ContactController::class,'sendEmail'])->name
 // category pages
 
 Route::get('/front-end/1', function () {
-    return view('Categoires.FrontEnd.page_1');
+    return view('Categories.FrontEnd.page_1');
 })->name('FrontEnd.page_1');
 
 Route::get('/back-end/1', function () {
-    return view('Categoires.BackEnd.page_1');
+    return view('Categories.BackEnd.page_1');
 })->name('BackEnd.page_1');
 
 Route::get('/other/1', function () {
-    return view('Categoires.Other.page_1');
+    return view('Categories.Other.page_1');
 })->name('Other.page_1');
 
 
@@ -48,7 +48,16 @@ Route::get('/other/1', function () {
 
 // all single posts
 
-Route::get('/difference-between-js-filter-and-map', function () {
+// post 1
+// frontEnd, css, javascript
+Route::get('/how-to-catch-css-pseudo-element-using-javascript', function () {
     return view('Posts.post_1');
 })->name('Post_1');
+
+
+//post 2
+// frontEnd, javascript
+Route::get('/difference-between-javascript-array-map-and-filter', function () {
+    return view('Posts.post_2');
+})->name('Post_2');
 

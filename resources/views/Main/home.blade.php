@@ -4,7 +4,7 @@
 @section('SEO')
 <title>Nasir Khan - Personal Blog</title>
 <meta name="description" content="Free Web tutorials">
-<meta name="keywords" content="HTML, CSS, JavaScript">
+<meta name="keywords" content="HTML, CSS, JavaScript, php">
 @endsection
 
 @section('main-container')
@@ -22,15 +22,14 @@
 						<div class="col-lg-4 masonry-item travel">
 							<div class="standard-post without-sidebar-post">
 								<div class="post-image">
-									<a href="{{route('Post_1')}}"><img src="{{asset('assets/image/css-pseudo-element-in-javascript.jpg')}}" alt=""></a>
+									<a href="{{route('Post_1')}}"><img src="{{asset('assets/image/posts/css-pseudo-element-in-javascript.jpg')}}" alt="How to catch CSS pseudo element using javaScript"></a>
 								</div>
 								<div class="down-content">
-									<a href="{{route('Post_1')}}"><h4>The Ultimate <em>Women’s Bag</em> Guide Latest Fashion <em>Trends</em></h4></a>
-									<ul class="post-info">
-										<li><a href="#">January 10, 2020</a></li>
-										<li><a href="#">Admin</a></li>
-									</ul>
-									<p>Bushwick fam PBRB master cleanse post-ironic. Craft beer ethical tb forage four loko.</p>
+									<a href="{{route('Post_1')}}">
+										<h4>
+											How to catch CSS pseudo element using javaScript.
+										</h4>
+									</a>
 								</div>
 							</div>
 						</div>
@@ -39,15 +38,14 @@
 						<div class="col-lg-4 masonry-item travel">
 							<div class="standard-post without-sidebar-post">
 								<div class="post-image">
-									<a href="{{route('Post_1')}}"><img src="{{asset('assets/image/css-pseudo-element-in-javascript.jpg')}}" alt=""></a>
+									<a href="{{route('Post_1')}}"><img src="{{asset('assets/image/posts/js-array-map-vs-filter.jpg')}}" alt="Difference Between javaScript Array map and filter"></a>
 								</div>
 								<div class="down-content">
-									<a href="{{route('Post_1')}}"><h4>The Ultimate <em>Women’s Bag</em> Guide Latest Fashion <em>Trends</em></h4></a>
-									<ul class="post-info">
-										<li><a href="#">January 10, 2020</a></li>
-										<li><a href="#">Admin</a></li>
-									</ul>
-									<p>Bushwick fam PBRB master cleanse post-ironic. Craft beer ethical tb forage four loko.</p>
+									<a href="{{route('Post_1')}}">
+										<h4>
+											Difference Between javaScript Array map and filter.
+										</h4>
+									</a>
 								</div>
 							</div>
 						</div>
@@ -56,15 +54,14 @@
 						<div class="col-lg-4 masonry-item travel">
 							<div class="standard-post without-sidebar-post">
 								<div class="post-image">
-									<a href="{{route('Post_1')}}"><img src="{{asset('assets/image/css-pseudo-element-in-javascript.jpg')}}" alt=""></a>
+									<a href="{{route('Post_1')}}"><img src="{{asset('assets/image/posts/laravel-app.jpg')}}" alt=""></a>
 								</div>
 								<div class="down-content">
-									<a href="{{route('Post_1')}}"><h4>The Ultimate <em>Women’s Bag</em> Guide Latest Fashion <em>Trends</em></h4></a>
-									<ul class="post-info">
-										<li><a href="#">January 10, 2020</a></li>
-										<li><a href="#">Admin</a></li>
-									</ul>
-									<p>Bushwick fam PBRB master cleanse post-ironic. Craft beer ethical tb forage four loko.</p>
+									<a href="{{route('Post_1')}}">
+										<h4>
+											How to increase Laravel App Performance
+										</h4>
+									</a>
 								</div>
 							</div>
 						</div>
@@ -73,15 +70,31 @@
 						<div class="col-lg-4 masonry-item travel">
 							<div class="standard-post without-sidebar-post">
 								<div class="post-image">
-									<a href="{{route('Post_1')}}"><img src="{{asset('assets/image/css-pseudo-element-in-javascript.jpg')}}" alt=""></a>
+									<a href="{{route('Post_1')}}"><img src="{{asset('assets/image/posts/popup-message-box.jpg')}}" alt=""></a>
 								</div>
 								<div class="down-content">
-									<a href="{{route('Post_1')}}"><h4>The Ultimate <em>Women’s Bag</em> Guide Latest Fashion <em>Trends</em></h4></a>
-									<ul class="post-info">
-										<li><a href="#">January 10, 2020</a></li>
-										<li><a href="#">Admin</a></li>
-									</ul>
-									<p>Bushwick fam PBRB master cleanse post-ironic. Craft beer ethical tb forage four loko.</p>
+									<a href="{{route('Post_1')}}">
+										<h4>
+											Automatic Show and Hide pop-up message box.
+										</h4>
+									</a>
+								</div>
+							</div>
+						</div>						
+
+
+
+						<div class="col-lg-4 masonry-item travel">
+							<div class="standard-post without-sidebar-post">
+								<div class="post-image">
+									<a href="{{route('Post_1')}}"><img src="{{asset('assets/image/posts/seo-knowldge.jpg')}}" alt="Why Developer Need Basic SEO Knowledge"></a>
+								</div>
+								<div class="down-content">
+									<a href="{{route('Post_1')}}">
+										<h4>
+											Why Developer Need Basic SEO Knowledge.
+										</h4>
+									</a>
 								</div>
 							</div>
 						</div>
