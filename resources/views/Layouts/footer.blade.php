@@ -5,11 +5,11 @@
         <div class="row">
           <div class="col-lg-12">
             <ul class="footer-social-icons">
-              <li><a href="#"><i class="fa fa-facebook"></i> Facebook</a></li>
-              <li><a href="#"><i class="fa fa-codepen"></i> Codepen</a></li>
-              <li><a href="#"><i class="fa fa-youtube"></i> Youtube</a></li>
               <li><a href="#"><i class="fa fa-linkedin"></i> Linkedin</a></li>
+              <li><a href="#"><i class="fa fa-youtube"></i> Youtube</a></li>
               <li><a href="#"><i class="fa fa-github"></i> Github</a></li>
+              <li><a href="#"><i class="fa fa-codepen"></i> Codepen</a></li>
+              <li><a href="#"><i class="fa fa-jsfiddle"></i> Facebook</a></li>
             </ul>
           </div>
           <div class="col-lg-12">

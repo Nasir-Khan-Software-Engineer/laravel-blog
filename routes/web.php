@@ -61,3 +61,30 @@ Route::get('/difference-between-javascript-array-map-and-filter', function () {
     return view('Posts.post_2');
 })->name('Post_2');
 
+
+//post 3
+// BackEnd, php, laravel
+Route::get('/how-to-increase-laravel-app-performance', function () {
+    return view('Posts.post_3');
+})->name('Post_3');
+
+
+//post 4
+// frontEnd, js
+Route::get('/automatic-show-and-hide-pop-up-message-box', function () {
+    return view('Posts.post_4');
+})->name('Post_4');
+
+//post 5
+// Other, SEO
+Route::get('/why-developer-need-basic-seo-knowledge', function () {
+    return view('Posts.post_5');
+})->name('Post_5');
+
+//post 6
+// BackEnd, PHP
+Route::get('/upload-an-image-with-validation-using-php', function () {
+    return view('Posts.post_6');
+})->name('Post_6');
+
+

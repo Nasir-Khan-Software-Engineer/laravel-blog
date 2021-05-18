@@ -2,7 +2,7 @@
 
 
 @section('SEO')
-<title>Nasir Khan - Contact</title>
+<title>BackEnd</title>
 <meta name="description" content="Free Web tutorials">
 <meta name="keywords" content="HTML, CSS, JavaScript">
 @endsection
@@ -17,66 +17,37 @@
 	          	
 	            <div class="standard-posts">
 	              <div class="row masonry-layout normal-col-gap">
-	                <div class="col-lg-4 masonry-item travel">
-	                  <div class="standard-post without-sidebar-post">
-	                    <div class="post-image">
-	                      <a href="single-standard-post.html"><img src="http://placehold.it/370x305" alt=""></a>
-	                    </div>
-	                    <div class="down-content">
-	                      <a href="single-standard-post.html"><h4>The Ultimate <em>Women’s Bag</em> Guide Latest Fashion <em>Trends</em></h4></a>
-	                      <ul class="post-info">
-	                        <li><a href="#">January 10, 2020</a></li>
-	                        <li><a href="#">Admin</a></li>
-	                      </ul>
-	                      <p>Bushwick fam PBRB master cleanse post-ironic. Craft beer ethical tb forage four loko.</p>
-	                    </div>
-	                  </div>
-	                </div>
-	                <div class="col-lg-4 masonry-item motivation">
-	                  <div class="standard-post without-sidebar-post">
-	                    <div class="post-image">
-	                      <a href="single-standard-post.html"><img src="http://placehold.it/370x305" alt=""></a>
-	                    </div>
-	                    <div class="down-content">
-	                      <a href="single-standard-post.html"><h4><em>helvetica</em> skateboard semiotics <em>tumeric shorts</em> drinking</h4></a>
-	                      <ul class="post-info">
-	                        <li><a href="#">January 10, 2020</a></li>
-	                        <li><a href="#">Admin</a></li>
-	                      </ul>
-	                      <p>Bushwick fam PBRB master cleanse post-ironic. Craft beer ethical tb forage four loko.</p>
-	                    </div>
-	                  </div>
-	                </div>
-	                <div class="col-lg-4 masonry-item fashion">
-	                  <div class="standard-post without-sidebar-post">
-	                    <div class="post-image">
-	                      <a href="single-standard-post.html"><img src="http://placehold.it/370x305" alt=""></a>
-	                    </div>
-	                    <div class="down-content">
-	                      <a href="single-standard-post.html"><h4>readymade aesthetic <em>echo park</em> bitters tattooed</h4></a>
-	                      <ul class="post-info">
-	                        <li><a href="#">January 10, 2020</a></li>
-	                        <li><a href="#">Admin</a></li>
-	                      </ul>
-	                      <p>Bushwick fam PBRB master cleanse post-ironic. Craft beer ethical tb forage four loko.</p>
-	                    </div>
-	                  </div>
-	                </div>
-	                <div class="col-lg-4 masonry-item lifestyle">
-	                  <div class="standard-post without-sidebar-post">
-	                    <div class="post-image">
-	                      <a href="single-standard-post.html"><img src="http://placehold.it/370x305" alt=""></a>
-	                    </div>
-	                    <div class="down-content">
-	                      <a href="single-standard-post.html"><h4>waistcoat <em>chicharrones</em> snack williamsburg fashion</h4></a>
-	                      <ul class="post-info">
-	                        <li><a href="#">January 10, 2020</a></li>
-	                        <li><a href="#">Admin</a></li>
-	                      </ul>
-	                      <p>Bushwick fam PBRB master cleanse post-ironic. Craft beer ethical tb forage four loko.</p>
-	                    </div>
-	                  </div>
-	                </div>
+
+
+	              	<div class="col-lg-4 masonry-item travel">
+	              		<div class="standard-post without-sidebar-post">
+	              			<div class="post-image">
+	              				<a href="{{route('Post_3')}}"><img src="{{asset('assets/image/posts/laravel-app.jpg')}}" alt="How to increase Laravel App Performance"></a>
+	              			</div>
+	              			<div class="down-content">
+	              				<a href="{{route('Post_3')}}">
+	              					<h4>
+	              						How to increase Laravel App Performance
+	              					</h4>
+	              				</a>
+	              			</div>
+	              		</div>
+	              	</div>
+
+	              	<div class="col-lg-4 masonry-item travel">
+	              		<div class="standard-post without-sidebar-post">
+	              			<div class="post-image">
+	              				<a href="{{route('Post_6')}}"><img src="{{asset('assets/image/posts/image-upload-php.jpg')}}" alt="Upload an image with validation using PHP"></a>
+	              			</div>
+	              			<div class="down-content">
+	              				<a href="{{route('Post_6')}}">
+	              					<h4>
+	              						Upload an image with validation using PHP
+	              					</h4>
+	              				</a>
+	              			</div>
+	              		</div>
+	              	</div>
 	         
 	              </div>
 	            </div>

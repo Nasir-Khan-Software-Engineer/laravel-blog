@@ -1,6 +1,9 @@
 @extends('Layouts.master')
-@section('seo')
-<title>This is sinle Post</title>
+@section('SEO')
+<title>How to catch CSS pseudo element using javaScript</title>
+<meta name="description" content="Using javascript we can easily catch HTML elements, also we can change the style of an HTML element using javascript easily but how can we play with CSS pseudo-element? In this post, I will show you how can we catch CSS pseudo-element using javascript.">
+<meta name="keywords" content="HTML, CSS, JavaScript, php">
+
 @endsection
 @section('main-container')
 <section class="medium-gap single-post">
@@ -28,6 +31,8 @@
                                     Example:
                                     </b>
                                     <br>
+
+        
                                     <pre class="prettyprint lang-css">
 
 //HTML
@@ -63,10 +68,10 @@
                                     <h2>
                                         Now Get CSS pseudo-element style using javascript
                                     </h2>
-                                    <p class="first-paragraph">
+                                    <p >
                                         CSS pseudo-element is not like a normal element it is a computed element so to get the style of this you can use the <b>getComputedStyle()</b> method, this method will take two parameters one is the main element and the second one is the pseudo-class.
                                     </p>
-                                    <p class="first-paragraph">
+                                    <p class="mt-2" >
                                         <b><mark>Note:</mark></b>
                                         To access CSS computed style don’t use any hyphen between two words of a CSS property.
                                         <br>
@@ -93,13 +98,13 @@ console.log(boxAfter.backgroundColor); // geting the background color
                                     <h2>
                                         Change Style of CSS pseudo-element using javascript
                                     </h2>
-                                    <p class="first-paragraph">
+                                    <p >
                                         Changing the style of CSS pseudo-element is a tricky one, actually, you can not do this directly or maybe I do not know the way yet, but I will share a technique with you to do this.
                                     </p>
                                     <h3>
                                         The technique of Changing the style of CSS pseudo-element
                                     </h3>
-                                    <p class="first-paragraph">
+                                    <p >
                                         Use CSS variable to design your CSS pseudo-element and change the value of the variable using javascript and this will change the style of your CSS pseudo-element.
                                     </p>
                                     <br>
@@ -135,30 +140,23 @@ box.style.setProperty('--boxAfterFontSize','50px');
                                         The <b>Window.getComputedStyle()</b> method returns an object containing the values of all CSS properties of an element, after applying active stylesheets and resolving any basic computation those values may contain.
                                         The <b>CSSStyleDeclaration.setProperty()</b> method interface sets a new value for a property on a CSS style declaration object.
                                     </p>
+
+                                    <br>
+
+                                    {{-- // help quate --}}
+                                    @include('Layouts.quate')
+                                   
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-12">
-                            <div class="about-author">
-                                <div class="author-image">
-                                    <img src="http://placehold.it/140x140" alt="">
-                                </div>
-                                <div class="right-content">
-                                    <h6>Nasir Khan</h6>
-                                    <p>Franzen tumeric sriracha and quinoa goard next level. Cold-pressed kinfolk cronut shoreditch freegan kistrater selfies.</p>
-                                    <ul class="social-icons">
-                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-rss"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-behance"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 mt-3">
+
+
+                        {{-- // autor card --}}
+                        @include('Layouts.author')
+
+                        {{-- <div class="col-12 mt-3">
                             <h2>Comments</h2>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
             </div>
@@ -167,5 +165,5 @@ box.style.setProperty('--boxAfterFontSize','50px');
 </section>
 @endsection
 @section('js')
-<script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+
 @endsection

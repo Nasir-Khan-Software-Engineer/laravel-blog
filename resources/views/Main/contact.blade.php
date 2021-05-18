@@ -77,18 +77,14 @@
             <h4>About Me</h4>
           </div>
           <div class="widget-content">
-            <img src="http://placehold.it/310x180" alt="">
+            <img style="width: 58% !important;" src="{{asset('assets/image/nasir-khan.jpg')}}" alt="Nasir Khan">
             <h6>Nasir Khan</h6>
             <p><b>P: </b> 23094820398</p>
             <p><b>E: </b> 23094820398</p>
             
-            <ul class="social-icons">
-              {{-- <li><a href="#"><i class="fa fa-facebook"></i></a></li> --}}
-              <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-              <li><a href="#"><i class="fa fa-github"></i></a></li>
-              <li><a href="#"><i class="fa fa-codepen"></i></a></li>
-              <li><a href="#"><i class="fa fa-youtube"></i></a></li>
-            </ul>
+            @include('Layouts.socialIcon')
+
+
           </div>
         </div>
       </div>

@@ -19,17 +19,21 @@
           <div class="widget-content">
             <div class="row">
               <div class="col-lg-4">
-                <img src="http://placehold.it/370x400" alt="">
+                <img style="width: 58% !important;" src="{{asset('assets/image/nasir-khan.jpg')}}" alt="Nasir Khan">
               </div>
               <div class="col-lg-8">
-                <p>Lorem ipsum dolor amet swag typewriter meditation iceland air plant, direct trade tacos kale chips ugh. Fashion axe single-origin coffee organic edison bulb prism. Green juice sriracha kogi iceland. Single-origin coffee leggings gluten-free asymmetrical biodiesel.<br><br><strong>Hexagon neutra irony organic jean shorts pop-up fashion axe prism ethical four loko small batch meh plaid tumeric chia, enamel pin vegan.</strong><br><br>Bitters jianbing pok pok direct trade kombucha. Organic wolf after tacos four loko hoodie chambray. Forage master cleanse kogi vice salvia flannel deep v. Portland gentrify jean shorts, vaporware umami kale chips cray shoreditch freegan kickstarter selfies.</p>
-                <ul class="social-icons">
-                  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                  <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                  <li><a href="#"><i class="fa fa-rss"></i></a></li>
-                  <li><a href="#"><i class="fa fa-behance"></i></a></li>
-                </ul>
+
+                I love to introduce myself as a <b>FullStack web developer</b>, and I am using PHP(Laravel) for more than 2 years. In my university's first two years I was involved in competitive programming(using c/c++), and that's why now I can learn new technology so quickly. Also, like to share(Blogging and YouTube ) my skill to other. <br>
+
+                <strong>
+                  Always try to learn new technology and it actually easy for me.
+                </strong>
+
+
+                
+
+                @include('Layouts.socialIcon')
+
               </div>
             </div>
           </div>

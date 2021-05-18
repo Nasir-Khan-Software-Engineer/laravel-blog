@@ -38,10 +38,10 @@
 						<div class="col-lg-4 masonry-item travel">
 							<div class="standard-post without-sidebar-post">
 								<div class="post-image">
-									<a href="{{route('Post_1')}}"><img src="{{asset('assets/image/posts/js-array-map-vs-filter.jpg')}}" alt="Difference Between javaScript Array map and filter"></a>
+									<a href="{{route('Post_2')}}"><img src="{{asset('assets/image/posts/js-array-map-vs-filter.jpg')}}" alt="Difference Between javaScript Array map and filter"></a>
 								</div>
 								<div class="down-content">
-									<a href="{{route('Post_1')}}">
+									<a href="{{route('Post_2')}}">
 										<h4>
 											Difference Between javaScript Array map and filter.
 										</h4>
@@ -54,10 +54,10 @@
 						<div class="col-lg-4 masonry-item travel">
 							<div class="standard-post without-sidebar-post">
 								<div class="post-image">
-									<a href="{{route('Post_1')}}"><img src="{{asset('assets/image/posts/laravel-app.jpg')}}" alt=""></a>
+									<a href="{{route('Post_3')}}"><img src="{{asset('assets/image/posts/laravel-app.jpg')}}" alt="How to increase Laravel App Performance"></a>
 								</div>
 								<div class="down-content">
-									<a href="{{route('Post_1')}}">
+									<a href="{{route('Post_3')}}">
 										<h4>
 											How to increase Laravel App Performance
 										</h4>
@@ -70,10 +70,10 @@
 						<div class="col-lg-4 masonry-item travel">
 							<div class="standard-post without-sidebar-post">
 								<div class="post-image">
-									<a href="{{route('Post_1')}}"><img src="{{asset('assets/image/posts/popup-message-box.jpg')}}" alt=""></a>
+									<a href="{{route('Post_4')}}"><img src="{{asset('assets/image/posts/popup-message-box.jpg')}}" alt="Automatic Show and Hide pop-up message box"></a>
 								</div>
 								<div class="down-content">
-									<a href="{{route('Post_1')}}">
+									<a href="{{route('Post_4')}}">
 										<h4>
 											Automatic Show and Hide pop-up message box.
 										</h4>
@@ -87,12 +87,27 @@
 						<div class="col-lg-4 masonry-item travel">
 							<div class="standard-post without-sidebar-post">
 								<div class="post-image">
-									<a href="{{route('Post_1')}}"><img src="{{asset('assets/image/posts/seo-knowldge.jpg')}}" alt="Why Developer Need Basic SEO Knowledge"></a>
+									<a href="{{route('Post_5')}}"><img src="{{asset('assets/image/posts/seo-knowldge.jpg')}}" alt="Why Developer Need Basic SEO Knowledge"></a>
 								</div>
 								<div class="down-content">
-									<a href="{{route('Post_1')}}">
+									<a href="{{route('Post_5')}}">
 										<h4>
 											Why Developer Need Basic SEO Knowledge.
+										</h4>
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-4 masonry-item travel">
+							<div class="standard-post without-sidebar-post">
+								<div class="post-image">
+									<a href="{{route('Post_6')}}"><img src="{{asset('assets/image/posts/image-upload-php.jpg')}}" alt="Upload an image with validation using PHP"></a>
+								</div>
+								<div class="down-content">
+									<a href="{{route('Post_6')}}">
+										<h4>
+											Upload an image with validation using PHP
 										</h4>
 									</a>
 								</div>

@@ -21,16 +21,17 @@
         <div class="row">
           <div class="col-lg-4 align-self-center">
             <ul class="social-icons">
-              <li><a href="#"><i class="fa fa-codepen"></i></a></li>
-              <li><a href="#"><i class="fa fa-github"></i></a></li>
               <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
               <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+              <li><a href="#"><i class="fa fa-github"></i></a></li>
+              <li><a href="#"><i class="fa fa-codepen"></i></a></li>
+              <li><a href="#"><i class="fa fa-jsfiddle"></i></a></li>
             </ul>
           </div>
           <div class="col-lg-4 align-self-center">
             <div class="logo">
               <a href="/">
-                <h1>Nasir Khan</h1>
+                Nasir Khan
               </a>
               
             </div>
