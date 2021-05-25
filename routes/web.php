@@ -54,20 +54,17 @@ Route::get('/how-to-catch-css-pseudo-element-using-javascript', function () {
     return view('Posts.post_1');
 })->name('Post_1');
 
-
 //post 2
 // frontEnd, javascript
 Route::get('/difference-between-javascript-array-map-and-filter', function () {
     return view('Posts.post_2');
 })->name('Post_2');
 
-
 //post 3
 // BackEnd, php, laravel
 Route::get('/how-to-increase-laravel-app-performance', function () {
     return view('Posts.post_3');
 })->name('Post_3');
-
 
 //post 4
 // frontEnd, js
@@ -86,5 +83,18 @@ Route::get('/why-developer-need-basic-seo-knowledge', function () {
 Route::get('/upload-an-image-with-validation-using-php', function () {
     return view('Posts.post_6');
 })->name('Post_6');
+
+// post 7
+// forntEnd, javascript
+Route::get('/how-many-ways-we-can-create-object-in-javascript', function () {
+    return view('Posts.post_7');
+})->name('Post_7');
+
+
+// post 8
+// forntEnd, javascript
+Route::get('/the-six-ways-of-selecting-html-dom-element-in-javascript', function () {
+    return view('Posts.post_8');
+})->name('Post_8');
 
 

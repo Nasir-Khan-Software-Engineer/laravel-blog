@@ -112,6 +112,39 @@
 									</a>
 								</div>
 							</div>
+						</div>						
+
+
+
+						<div class="col-lg-4 masonry-item travel">
+							<div class="standard-post without-sidebar-post">
+								<div class="post-image">
+									<a href="{{route('Post_7')}}"><img src="{{asset('assets/image/posts/four-ways-of-js-object.jpg')}}" alt="How many ways we can create object in javaScript"></a>
+								</div>
+								<div class="down-content">
+									<a href="{{route('Post_7')}}">
+										<h4>
+											How many ways we can create object in javaScript
+										</h4>
+									</a>
+								</div>
+							</div>
+						</div>						
+
+
+						<div class="col-lg-4 masonry-item travel">
+							<div class="standard-post without-sidebar-post">
+								<div class="post-image">
+									<a href="{{route('Post_8')}}"><img src="{{asset('assets/image/posts/select-html-tag.jpg')}}" alt="How many ways we can select HTML tag or HTML DOM element using javascript"></a>
+								</div>
+								<div class="down-content">
+									<a href="{{route('Post_8')}}">
+										<h4>
+											How many ways we can select HTML tag or HTML DOM element using javascript
+										</h4>
+									</a>
+								</div>
+							</div>
 						</div>
 
 
