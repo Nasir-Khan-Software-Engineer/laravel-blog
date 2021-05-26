@@ -98,3 +98,10 @@ Route::get('/the-six-ways-of-selecting-html-dom-element-in-javascript', function
 })->name('Post_8');
 
 
+// post 9
+// forntEnd, CSS
+Route::get('/pure-css-animated-dropdown-buttons-with-source-code', function () {
+    return view('Posts.post_9');
+})->name('Post_9');
+
+
