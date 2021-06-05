@@ -21,10 +21,10 @@
 	              	<div class="col-lg-4 masonry-item travel">
 	              		<div class="standard-post without-sidebar-post">
 	              			<div class="post-image">
-	              				<a href="{{route('Post_1')}}"><img src="{{asset('assets/image/posts/css-pseudo-element-in-javascript.jpg')}}" alt="How to catch CSS pseudo element using javaScript"></a>
+	              				<a href="{{route('Single_Post_1')}}"><img src="{{asset('assets/image/posts/css-pseudo-element-in-javascript.jpg')}}" alt="How to catch CSS pseudo element using javaScript"></a>
 	              			</div>
 	              			<div class="down-content">
-	              				<a href="{{route('Post_1')}}">
+	              				<a href="{{route('Single_Post_1')}}">
 	              					<h4>
 	              						How to catch CSS pseudo element using javaScript.
 	              					</h4>
@@ -36,10 +36,10 @@
 	              	<div class="col-lg-4 masonry-item travel">
 	              		<div class="standard-post without-sidebar-post">
 	              			<div class="post-image">
-	              				<a href="{{route('Post_2')}}"><img src="{{asset('assets/image/posts/js-array-map-vs-filter.jpg')}}" alt="Difference Between javaScript Array map and filter"></a>
+	              				<a href="{{route('Single_Post_2')}}"><img src="{{asset('assets/image/posts/js-array-map-vs-filter.jpg')}}" alt="Difference Between javaScript Array map and filter"></a>
 	              			</div>
 	              			<div class="down-content">
-	              				<a href="{{route('Post_2')}}">
+	              				<a href="{{route('Single_Post_2')}}">
 	              					<h4>
 	              						Difference Between javaScript Array map and filter.
 	              					</h4>
@@ -52,10 +52,10 @@
 	              	<div class="col-lg-4 masonry-item travel">
 	              		<div class="standard-post without-sidebar-post">
 	              			<div class="post-image">
-	              				<a href="{{route('Post_4')}}"><img src="{{asset('assets/image/posts/popup-message-box.jpg')}}" alt="Automatic Show and Hide pop-up message box"></a>
+	              				<a href="{{route('Single_Post_4')}}"><img src="{{asset('assets/image/posts/popup-message-box.jpg')}}" alt="Automatic Show and Hide pop-up message box"></a>
 	              			</div>
 	              			<div class="down-content">
-	              				<a href="{{route('Post_4')}}">
+	              				<a href="{{route('Single_Post_4')}}">
 	              					<h4>
 	              						Automatic Show and Hide pop-up message box.
 	              					</h4>

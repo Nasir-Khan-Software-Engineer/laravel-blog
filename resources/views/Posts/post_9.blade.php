@@ -400,7 +400,7 @@ Child 3
 
                                     <h3>See More</h3>
                                     <ol>
-                                        <li><a class="text-primary" href="{{route('Post_1')}}">How To Catch CSS Pseudo Element Using JavaScript</a></li>
+                                        <li><a class="text-primary" href="{{route('Single_Post_1')}}">How To Catch CSS Pseudo Element Using JavaScript</a></li>
                                     </ol>
 
 

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-   @include('Layouts.header')
+  @include('Layouts.header')
 
   <body>
 
@@ -12,4 +12,6 @@
   @include('Layouts.footer')
 
   </body>
+  {{-- end body --}}
 </html>
+{{-- end html --}}

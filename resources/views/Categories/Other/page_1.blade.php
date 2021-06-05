@@ -21,10 +21,10 @@
 	              	<div class="col-lg-4 masonry-item travel">
 	              		<div class="standard-post without-sidebar-post">
 	              			<div class="post-image">
-	              				<a href="{{route('Post_5')}}"><img src="{{asset('assets/image/posts/seo-knowldge.jpg')}}" alt="Why Developer Need Basic SEO Knowledge"></a>
+	              				<a href="{{route('Single_Post_5')}}"><img src="{{asset('assets/image/posts/seo-knowldge.jpg')}}" alt="Why Developer Need Basic SEO Knowledge"></a>
 	              			</div>
 	              			<div class="down-content">
-	              				<a href="{{route('Post_5')}}">
+	              				<a href="{{route('Single_Post_5')}}">
 	              					<h4>
 	              						Why Developer Need Basic SEO Knowledge.
 	              					</h4>

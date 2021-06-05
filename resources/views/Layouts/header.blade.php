@@ -22,7 +22,18 @@
     <link rel="stylesheet" href="{{asset('assets/css/main.css')}}" />
 
     <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js?autoload=true&amp;skin=sunburst&amp;lang=css" defer=""></script>
+    
     @yield('CSS')
+
+    @php 
+        // check is it single post or not
+        $route_name = Route::current()->getName();
+    @endphp
+    @if(str_contains($route_name, 'Single_Post'))
+        <link rel="stylesheet" href="{{asset('assets/css/single-post.css')}}" />
+    @endif
+
+        
 
     @yield('custom-header-content')
 
