@@ -6,7 +6,7 @@
   <body>
 
   @include('Layouts.nav')
-
+  @include('cookie-consent::index')
   @yield('main-container')
   
   @include('Layouts.footer')

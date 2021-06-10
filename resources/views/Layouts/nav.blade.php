@@ -8,7 +8,7 @@
           <li class="@if(Request::is('front-end/*')) active @endif" ><a href="{{route('FrontEnd.page_1')}}">FrontEnd</a></li>
           <li class="@if(Request::is('back-end/*')) active @endif" ><a href="{{route('BackEnd.page_1')}}">BackEndEnd</a></li>
           <li class="@if(Request::is('other/*')) active @endif" ><a href="{{route('Other.page_1')}}">Other</a></li>
-          <li class="@if(Request::is('about')) active @endif"><a href="{{route('About')}}">About</a></li>
+          <li class="@if(Request::is('about')) active @endif"><a href="{{route('Service')}}">Our Service</a></li>
           <li class="@if(Request::is('contact')) active @endif"><a href="{{route('Contact')}}">Contact Us</a></li>
 
         </ul>
@@ -31,14 +31,14 @@
           <div class="col-lg-4 align-self-center">
             <div class="logo">
               <a href="/">
-                Nasir Khan
+                <img src="https://www.admin.insidethediv.com/assets/img/post/1623323480.jpg" alt="InsideTheDiv">
               </a>
               
             </div>
           </div>
           <div class="col-lg-4  nav-image">
-            <a class="active" href="{{route('About')}}">
-              <img src="{{asset('assets/image/nasir-khan.jpg')}}" alt="nasir-khan">
+            <a class="active" href="{{route('Service')}}">
+              <img src="https://www.admin.insidethediv.com/assets/img/post/1623323595.jpg" alt="InsideTheDiv">
             </a>
           </div>
         </div>
@@ -59,14 +59,14 @@
                 <li class="@if(Request::is('front-end/*')) active @endif" ><a href="{{route('FrontEnd.page_1')}}">FrontEnd</a></li>
                 <li class="@if(Request::is('back-end/*')) active @endif" ><a href="{{route('BackEnd.page_1')}}">BackEndEnd</a></li>
                 <li class="@if(Request::is('other/*')) active @endif" ><a href="{{route('Other.page_1')}}">Other</a></li>
-                <li class="@if(Request::is('about')) active @endif"><a href="{{route('About')}}">About</a></li>
+                <li class="@if(Request::is('about')) active @endif"><a href="{{route('Service')}}">Our Service</a></li>
                 <li class="@if(Request::is('contact')) active @endif"><a href="{{route('Contact')}}">Contact Us</a></li>
                 
               </ul>    
           </div>
           <div class="header-widgets">
             <a class="@if(Request::is('/')) active @endif" href="{{route('Home')}}">
-              <img src="{{asset('assets/image/nasir-khan.jpg')}}" alt="nasir-khan">
+              <img src="https://www.admin.insidethediv.com/assets/img/post/1623323595.jpg" alt="InsideTheDiv">
             </a>
 
             <ul class="right-menu">

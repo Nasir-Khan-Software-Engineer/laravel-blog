@@ -2,7 +2,7 @@
 
 
 @section('SEO')
-<title>Nasir Khan - Contact</title>
+<title>FrontEnd</title>
 <meta name="description" content="Free Web tutorials">
 <meta name="keywords" content="HTML, CSS, JavaScript">
 @endsection
@@ -13,147 +13,33 @@
 	      <div class="container">
 	        <div class="row">
 	          <div class="col-lg-12">
-	            <div class="standard-posts">
-	              <div class="row masonry-layout normal-col-gap">
-	                <div class="col-lg-4 masonry-item travel">
-	                  <div class="standard-post without-sidebar-post">
-	                    <div class="post-image">
-	                      <a href="single-standard-post.html"><img src="http://placehold.it/370x305" alt=""></a>
-	                    </div>
-	                    <div class="down-content">
-	                      <a href="single-standard-post.html"><h4>The Ultimate <em>Women’s Bag</em> Guide Latest Fashion <em>Trends</em></h4></a>
-	                      <ul class="post-info">
-	                        <li><a href="#">January 10, 2020</a></li>
-	                        <li><a href="#">Admin</a></li>
-	                      </ul>
-	                      <p>Bushwick fam PBRB master cleanse post-ironic. Craft beer ethical tb forage four loko.</p>
-	                    </div>
-	                  </div>
-	                </div>
-	                <div class="col-lg-4 masonry-item motivation">
-	                  <div class="standard-post without-sidebar-post">
-	                    <div class="post-image">
-	                      <a href="single-standard-post.html"><img src="http://placehold.it/370x305" alt=""></a>
-	                    </div>
-	                    <div class="down-content">
-	                      <a href="single-standard-post.html"><h4><em>helvetica</em> skateboard semiotics <em>tumeric shorts</em> drinking</h4></a>
-	                      <ul class="post-info">
-	                        <li><a href="#">January 10, 2020</a></li>
-	                        <li><a href="#">Admin</a></li>
-	                      </ul>
-	                      <p>Bushwick fam PBRB master cleanse post-ironic. Craft beer ethical tb forage four loko.</p>
-	                    </div>
-	                  </div>
-	                </div>
-	                <div class="col-lg-4 masonry-item fashion">
-	                  <div class="standard-post without-sidebar-post">
-	                    <div class="post-image">
-	                      <a href="single-standard-post.html"><img src="http://placehold.it/370x305" alt=""></a>
-	                    </div>
-	                    <div class="down-content">
-	                      <a href="single-standard-post.html"><h4>readymade aesthetic <em>echo park</em> bitters tattooed</h4></a>
-	                      <ul class="post-info">
-	                        <li><a href="#">January 10, 2020</a></li>
-	                        <li><a href="#">Admin</a></li>
-	                      </ul>
-	                      <p>Bushwick fam PBRB master cleanse post-ironic. Craft beer ethical tb forage four loko.</p>
-	                    </div>
-	                  </div>
-	                </div>
-	                <div class="col-lg-4 masonry-item lifestyle">
-	                  <div class="standard-post without-sidebar-post">
-	                    <div class="post-image">
-	                      <a href="single-standard-post.html"><img src="http://placehold.it/370x305" alt=""></a>
-	                    </div>
-	                    <div class="down-content">
-	                      <a href="single-standard-post.html"><h4>waistcoat <em>chicharrones</em> snack williamsburg fashion</h4></a>
-	                      <ul class="post-info">
-	                        <li><a href="#">January 10, 2020</a></li>
-	                        <li><a href="#">Admin</a></li>
-	                      </ul>
-	                      <p>Bushwick fam PBRB master cleanse post-ironic. Craft beer ethical tb forage four loko.</p>
-	                    </div>
-	                  </div>
-	                </div>
-	                <div class="col-lg-4 masonry-item lifestyle">
-	                  <div class="standard-post without-sidebar-post">
-	                    <div class="post-image">
-	                      <a href="single-standard-post.html"><img src="http://placehold.it/370x305" alt=""></a>
-	                    </div>
-	                    <div class="down-content">
-	                      <a href="single-standard-post.html"><h4>Fingerstache <em>flexitarian</em> raw denim <em>godard</em> leggings</h4></a>
-	                      <ul class="post-info">
-	                        <li><a href="#">January 10, 2020</a></li>
-	                        <li><a href="#">Admin</a></li>
-	                      </ul>
-	                      <p>Bushwick fam PBRB master cleanse post-ironic. Craft beer ethical tb forage four loko.</p>
-	                    </div>
-	                  </div>
-	                </div>
-	                <div class="col-lg-4 masonry-item fashion">
-	                  <div class="standard-post without-sidebar-post">
-	                    <div class="post-image">
-	                      <a href="single-standard-post.html"><img src="http://placehold.it/370x305" alt=""></a>
-	                    </div>
-	                    <div class="down-content">
-	                      <a href="single-standard-post.html"><h4><em>Godard</em> gochujang keffiyeh you probably subway <em>gentrify</em></h4></a>
-	                      <ul class="post-info">
-	                        <li><a href="#">January 10, 2020</a></li>
-	                        <li><a href="#">Admin</a></li>
-	                      </ul>
-	                      <p>Bushwick fam PBRB master cleanse post-ironic. Craft beer ethical tb forage four loko.</p>
-	                    </div>
-	                  </div>
-	                </div>
-	                <div class="col-lg-4 masonry-item motivation">
-	                  <div class="standard-post without-sidebar-post">
-	                    <div class="post-image">
-	                      <a href="single-standard-post.html"><img src="http://placehold.it/370x305" alt=""></a>
-	                    </div>
-	                    <div class="down-content">
-	                      <a href="single-standard-post.html"><h4>Everyday <em>carry</em> chartreuse hexagon kombucha <em>poutine</em></h4></a>
-	                      <ul class="post-info">
-	                        <li><a href="#">January 10, 2020</a></li>
-	                        <li><a href="#">Admin</a></li>
-	                      </ul>
-	                      <p>Bushwick fam PBRB master cleanse post-ironic. Craft beer ethical tb forage four loko.</p>
-	                    </div>
-	                  </div>
-	                </div>
-	                <div class="col-lg-4 masonry-item travel">
-	                  <div class="standard-post without-sidebar-post">
-	                    <div class="post-image">
-	                      <a href="single-standard-post.html"><img src="http://placehold.it/370x305" alt=""></a>
-	                    </div>
-	                    <div class="down-content">
-	                      <a href="single-standard-post.html"><h4>helvetica mlkshk <em>listicle microdosing</em> kitsch</h4></a>
-	                      <ul class="post-info">
-	                        <li><a href="#">January 10, 2020</a></li>
-	                        <li><a href="#">Admin</a></li>
-	                      </ul>
-	                      <p>Bushwick fam PBRB master cleanse post-ironic. Craft beer ethical tb forage four loko.</p>
-	                    </div>
-	                  </div>
-	                </div>
-	                <div class="col-lg-4 masonry-item lifestyle">
-	                  <div class="standard-post without-sidebar-post">
-	                    <div class="post-image">
-	                      <a href="single-standard-post.html"><img src="http://placehold.it/370x305" alt=""></a>
-	                    </div>
-	                    <div class="down-content">
-	                      <a href="single-standard-post.html"><h4>The Ultimate <em>Women’s Bag</em> Guide Latest Fashion Trends</h4></a>
-	                      <ul class="post-info">
-	                        <li><a href="#">January 10, 2020</a></li>
-	                        <li><a href="#">Admin</a></li>
-	                      </ul>
-	                      <p>Bushwick fam PBRB master cleanse post-ironic. Craft beer ethical tb forage four loko.</p>
-	                    </div>
-	                  </div>
-	                </div>
+	          	<div class="page-title-des">
+					<h1 class="text-center page-title pb-2">FrontEnd</h1>
+					<p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus voluptatum minima labore quisquam in quod rerum sed adipisci non cupiditate ipsum et officiis dolores, voluptates asperiores cumque nesciunt voluptatibus consequuntur? Voluptate, libero tenetur debitis odit nesciunt nihil recusandae velit voluptatum.</p>
+				</div>
+	          	
+	            <div id="all-posts" class="standard-posts">
+	            	<div class="row masonry-layout normal-col-gap">
 
-	                
-	              </div>
+	            		<div class="col-lg-4 masonry-item ">
+	            			<div class="standard-post post without-sidebar-post">
+	            				<div class="down-content">
+	            					<a href="{{route('Single_Post_1')}}">How many ways we can select HTML tag or HTML DOM elements in javascript?</a>
+	            				</div>
+	            			</div>
+	            		</div>
+	            		{{-- // end single post --}}
+
+
+
+
+
+
+
+	            	</div>
 	            </div>
+
+	            
 	          </div>
 	        </div>
 	      </div>

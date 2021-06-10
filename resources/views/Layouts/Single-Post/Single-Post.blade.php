@@ -7,44 +7,57 @@
 
 	@include('Layouts.nav')
 
-	<section class="medium-gap single-post">
+	<div class="medium-gap single-post">
 		<div class="container">
 			<div class="row">
-				<div id="single-post-content" class="col-lg-9 single-post-content">
+				<section id="single-post-content" class="col-lg-9 single-post-content">
 					{{-- // single post  top ad section --}}
 					@yield('top-ad')
 					{{-- // end single post top ad  section--}}
-					<div class="cover-image">
-						@yield('cover-image')
-					</div>
+					<article>
+						<div class="cover-image">
+							@yield('cover-image')
+						</div>
 
-					<div class="main-content">
-						@yield('main-content')
+						<div class="main-content">
+							@yield('main-content')
 
+							<div class="mt-2 text-center">
+								@yield('code')
+							</div>
+
+
+							<div class="mt-2">
+								@yield('video')
+							</div>
+						</div>
+					</article>
+					
 						<div class="mt-2">
 							@include('Layouts.quate')
 						</div>
-					</div>
-
 					{{-- // single post btoom ad section --}}
-					@yield('bottom-ad')
+							@yield('bottom-ad')
 					{{-- // end single post btoom ad section --}}
 
-
+					
 					@yield('author')
 
-					@yield('comment');
+					@yield('comment')
 
-				</div>
+				</section>
 
-				 <div id="side-bar-content" class="col-12 col-lg-3 side-bar-content">
+				 <aside id="side-bar-content" class="col-12 col-lg-3 side-bar-content">
 				 	@include('Layouts.side-bar')
-				 </div>
+				 </aside>
 			</div>
 		</div>
-	</section>
+	</div>
 
 	@include('Layouts.footer')
+
+	{{-- // comment js for single post --}}
+	<script src="{{asset('assets/js/comment.js')}}"></script>
 
 </body>
 {{-- end body --}}

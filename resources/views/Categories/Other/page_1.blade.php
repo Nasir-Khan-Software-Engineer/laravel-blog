@@ -6,35 +6,33 @@
 <meta name="description" content="Free Web tutorials">
 <meta name="keywords" content="HTML, CSS, JavaScript">
 @endsection
+
 @section('main-container')
 
 	<section class="medium-gap standard-home without-sidebar-home">
 	      <div class="container">
 	        <div class="row">
 	          <div class="col-lg-12">
-	          	<h1 class="text-center page-title pb-4">Others</h1>
+	          	<div class="page-title-des">
+					<h1 class="text-center page-title pb-2">Other</h1>
+					<p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus voluptatum minima labore quisquam in quod rerum sed adipisci non cupiditate ipsum et officiis dolores, voluptates asperiores cumque nesciunt voluptatibus consequuntur? Voluptate, libero tenetur debitis odit nesciunt nihil recusandae velit voluptatum.</p>
+				</div>
 	          	
-	            <div class="standard-posts">
-	              <div class="row masonry-layout normal-col-gap">
+	            <div id="all-posts" class="standard-posts">
+	            	<div class="row masonry-layout normal-col-gap">
 
-	              	
-	              	<div class="col-lg-4 masonry-item travel">
-	              		<div class="standard-post without-sidebar-post">
-	              			<div class="post-image">
-	              				<a href="{{route('Single_Post_5')}}"><img src="{{asset('assets/image/posts/seo-knowldge.jpg')}}" alt="Why Developer Need Basic SEO Knowledge"></a>
-	              			</div>
-	              			<div class="down-content">
-	              				<a href="{{route('Single_Post_5')}}">
-	              					<h4>
-	              						Why Developer Need Basic SEO Knowledge.
-	              					</h4>
-	              				</a>
-	              			</div>
-	              		</div>
-	              	</div>
-	         
-	              </div>
+	            		
+
+
+
+
+
+
+
+	            	</div>
 	            </div>
+
+
 	          </div>
 	        </div>
 	      </div>

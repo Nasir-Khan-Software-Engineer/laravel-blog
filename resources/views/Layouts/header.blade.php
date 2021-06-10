@@ -4,6 +4,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta name="author" content="Nasir Khan">
 
+    <meta name="csrf-token" content="{{ csrf_token() }}" />
+    
+    <link rel="icon" href="https://www.admin.insidethediv.com/assets/img/post/1623326768.jpg" type="image/png" sizes="16x16">
     @yield('SEO')
 
     <!-- Fonts -->

@@ -1,10 +1,26 @@
 @extends('Layouts.master')
 
 @section('SEO')
-<title>Nasir Khan - Contact</title>
-<meta name="description" content="Free Web tutorials">
-<meta name="keywords" content="HTML, CSS, JavaScript">
+<title>About Us | Insidethediv</title>
+<meta name="description" content="Insidethediv is a blogging website for Programming & Web Development. The main target of us is to provide the guideline and make the best online tutorial on programming and web development. All tutorial and source-code scripts are completely free.">
+<meta name="keywords" content="About Us, Insidethediv">
 @endsection
+@section('CSS')
+<style>
+  h1{
+    font-size:25px;
+  }
+  h2{
+    font-size: 22px;
+  }
+  p{
+    font-size:17px;
+    text-align: justify;
+  }
+</style>
+
+@endsection
+
 
 @section('main-container')
 
@@ -14,23 +30,20 @@
       <div class="col-lg-12">
         <div class="widget-sidebar about-me">
           <div class="widget-header">
-            <h4>About Me</h4>
+            <h1>About Us | Insidethediv</h1>
           </div>
           <div class="widget-content">
             <div class="row">
               <div class="col-lg-4">
-                <img style="width: 58% !important;" src="{{asset('assets/image/nasir-khan.jpg')}}" alt="Nasir Khan">
+                <img style="width: 58% !important;" src="https://www.admin.insidethediv.com/assets/img/post/1623323595.jpg" alt="Nasir Khan">
               </div>
               <div class="col-lg-8">
 
-                I love to introduce myself as a <b>FullStack web developer</b>, and I am using PHP(Laravel) for more than 2 years. In my university's first two years I was involved in competitive programming(using c/c++), and that's why now I can learn new technology so quickly. Also, like to share(Blogging and YouTube ) my skill to other. <br>
+                <p>
+                  Insidethediv is a blogging website for Programming & Web Development. The main target of us is to provide the guideline and make the best online tutorial on programming and web development. All tutorial and source-code scripts are completely free.<br><br>
+                </p>
 
-                <strong>
-                  Always try to learn new technology and it actually easy for me.
-                </strong>
-
-
-                
+                <p><b>We also provide some <a class="text-info" href="/service">services</a>.</b></p>  
 
                 @include('Layouts.socialIcon')
 
