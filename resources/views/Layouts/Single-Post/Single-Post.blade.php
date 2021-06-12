@@ -58,6 +58,7 @@
 
 	{{-- // comment js for single post --}}
 	<script src="{{asset('assets/js/comment.js')}}"></script>
+	<script src="{{asset('assets/js/search.js')}}"></script>
 
 </body>
 {{-- end body --}}

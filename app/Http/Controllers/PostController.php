@@ -6,9 +6,11 @@ use Illuminate\Http\Request;
 
 class PostController extends Controller
 {
-    public function search(Request $r){
+    public function search($keyword){
+
+
     	 $api_token 	= $this->static_api_token();
-    	 $keyword 	    = $r->keyword;
+    	 $keyword 	    = $keyword;
      
 
      	$response = Http::post('https://www.admin.insidethediv.com/api/post/search',[

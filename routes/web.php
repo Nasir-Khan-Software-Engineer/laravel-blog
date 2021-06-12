@@ -10,11 +10,6 @@ use App\Http\Controllers\PostController;
 
 
 
-
-
-
-
-
 // main pages
 Route::get('/', function () {
     return view('Main.home');
@@ -43,8 +38,7 @@ Route::get('/our-service', function () {
 
 
 
-Route::post('/post/search', [PostController::class,'search'])->name('SearchPost');
-// Route::post('/post/search/result', [PostController::class,'show_result'])->name('ShowSrarchResult');
+Route::get('/post/search/{keyword}', [PostController::class,'search'])->name('SearchPost');
 
 Route::post('/contact/send-email', [ContactController::class,'sendEmail'])->name('SendEmail');
 
