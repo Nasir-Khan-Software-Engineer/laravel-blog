@@ -32,7 +32,7 @@
                     <p style="font-size: 18px;">
                       👉 Please fill up the form completely. 👇<br>
                       👉 Use Your Valid Email Address.<br>
-                      👉 Source Code Will Send to Yor Email Automatically.<br>
+                      👉 <b>Source Code Will Send to Yor Email Automatically</b>.<br>
                       👉 It will take just 5 to 10 seconds<br>
                     </p>
                   </div>

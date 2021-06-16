@@ -10,6 +10,7 @@ class DownloadController extends Controller
 
     public function page($id,$title){
         
+        $title = str_replace('-',' ',$title);
         return view('Main.download',compact('id','title'));
     }
 

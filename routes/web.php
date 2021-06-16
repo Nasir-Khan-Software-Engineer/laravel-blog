@@ -86,15 +86,11 @@ Route::get('/how-many-ways-we-can-select-html-tag-or-html-dom-elements-in-javasc
 })->name('Single_Post_1');
 
 
-
-
-
-
-// //post 2
-// // frontEnd, javascript
-// Route::get('/difference-between-javascript-array-map-and-filter', function () {
-//     return view('Posts.post_2');
-// })->name('Single_Post_2');
+//post 2
+// frontEnd, javascript
+Route::get('/how-to-create-popup-modal-box-in-javascript', function () {
+    return view('Posts.post_2');
+})->name('Single_Post_2');
 
 // //post 3
 // // BackEnd, php, laravel

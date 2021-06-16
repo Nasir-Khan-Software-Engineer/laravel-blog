@@ -31,6 +31,15 @@
 						</div>
 						{{-- // end single post --}}
 
+						<div class="col-lg-4 masonry-item ">
+							<div class="standard-post post without-sidebar-post">
+								<div class="down-content">
+									<a href="{{route('Single_Post_2')}}">How to create popup modal or popup message box using javascript?</a>
+								</div>
+							</div>
+						</div>
+						{{-- // end single post --}}
+
 
 
 
