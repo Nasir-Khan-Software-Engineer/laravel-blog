@@ -59,7 +59,7 @@
 
 
 <div class="py-3 text-center">
-	<img class="img-fluid" src="https://www.admin.insidethediv.com/assets/img/post/1623665919.jpg" alt="popup modal using javascript">
+	<img class="img-fluid" src="https://admin.insidethediv.com/assets/img/post/post_4-15-06-2021-08-02-41pm.gif" alt="popup modal With Time Countdown In Javascrip">
 </div>
 
 <div  class="py-2">

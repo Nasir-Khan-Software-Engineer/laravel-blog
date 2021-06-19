@@ -10,10 +10,16 @@ use App\Http\Controllers\PostController;
 
 
 
+
+
+
+
 // main pages
 Route::get('/', function () {
     return view('Main.home');
 })->name('Home');
+
+
 
 Route::get('/about', function () {
     return view('Main.about');
@@ -92,17 +98,23 @@ Route::get('/how-to-create-popup-modal-box-in-javascript', function () {
     return view('Posts.post_2');
 })->name('Single_Post_2');
 
-// //post 3
-// // BackEnd, php, laravel
-// Route::get('/how-to-increase-laravel-app-performance', function () {
-//     return view('Posts.post_3');
-// })->name('Single_Post_3');
 
-// //post 4
-// // frontEnd, js
-// Route::get('/automatic-show-and-hide-pop-up-message-box', function () {
-//     return view('Posts.post_4');
-// })->name('Single_Post_4');
+
+//post 3
+// frontEnd, javascript
+Route::get('/onlick-popup-full-size-image-in-jquery', function () {
+    return view('Posts.post_3');
+})->name('Single_Post_3');
+
+
+
+//post 4
+// BackEnd, Laravel
+Route::get('/laravel-route-not-found-exception', function () {
+    return view('Posts.post_4');
+})->name('Single_Post_4');
+
+
 
 // //post 5
 // // Other, SEO
@@ -137,3 +149,6 @@ Route::get('/how-to-create-popup-modal-box-in-javascript', function () {
 // })->name('Single_Post_9');
 
 
+Route::any('{query}', 
+  function() { return back(); })
+  ->where('query', '.*');

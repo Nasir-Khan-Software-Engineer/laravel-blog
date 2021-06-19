@@ -51,6 +51,9 @@ final class ExceptionHandler implements ExceptionHandlerContract
      */
     public function render($request, Throwable $e)
     {
+        
+
+
         return $this->appExceptionHandler->render($request, $e);
     }
 
