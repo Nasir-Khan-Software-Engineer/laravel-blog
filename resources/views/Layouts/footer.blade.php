@@ -60,6 +60,7 @@
     <script src="{{asset('assets/js/jquery.js')}}"></script>
     <script src="{{asset('assets/js/scroll.js')}}"></script>
     <script src="{{asset('assets/js/main.js')}}"></script>
+    <script src="{{asset('assets/js/email-domain-check.js')}}"></script>
     <script src="{{asset('assets/js/subscribe.js')}}"></script>
 
     @yield('js')

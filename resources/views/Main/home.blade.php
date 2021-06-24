@@ -68,8 +68,35 @@
 						{{-- // end single post --}}
 
 
+						<div class="col-lg-4 masonry-item ">
+							<div class="standard-post post without-sidebar-post">
+								<div class="down-content">
+									<img class="img-fluid" src="https://www.admin.insidethediv.com/assets/img/post/post_6-18-06-2021-11-27-54am.gif" alt="Responsive Dropdown menu with Submenu">
+									<a href="{{route('Single_Post_5')}}">A Responsive Dropdown menu with Submenu</a>
+								</div>
+							</div>
+						</div>
+						{{-- // end single post --}}
 
+						<div class="col-lg-4 masonry-item ">
+							<div class="standard-post post without-sidebar-post">
+								<div class="down-content">
+									<img class="img-fluid" src="https://www.admin.insidethediv.com/assets/img/post/post_8-20-06-2021-08-18-09pm.gif" alt="Unit Converter">
+									<a href="{{route('Single_Post_6')}}">Simple JavaScript Project with Source Code | Unit Converter</a>
+								</div>
+							</div>
+						</div>
+						{{-- // end single post --}}
 
+						<div class="col-lg-4 masonry-item ">
+							<div class="standard-post post without-sidebar-post">
+								<div class="down-content">
+									<img class="img-fluid" src="https://www.admin.insidethediv.com/assets/img/post/post_9-23-06-2021-11-33-54pm.gif" alt="MySQL short notes PDF">
+									<a href="{{route('Single_Post_7')}}">Important MySQL short notes PDF for beginners 2021</a>
+								</div>
+							</div>
+						</div>
+						{{-- // end single post --}}
 
 
 

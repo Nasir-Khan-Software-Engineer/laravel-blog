@@ -43,6 +43,16 @@ Route::get('/our-service', function () {
 })->name('Service');
 
 
+// information
+    
+Route::get('/info/valid-email', function () {
+    return view('Info.valid-email');
+})->name('ValidEmail');
+
+// end
+
+
+
 
 Route::get('/post/search/{keyword}', [PostController::class,'search'])->name('SearchPost');
 
@@ -113,6 +123,27 @@ Route::get('/onlick-popup-full-size-image-in-jquery', function () {
 Route::get('/laravel-route-not-found-exception', function () {
     return view('Posts.post_4');
 })->name('Single_Post_4');
+
+
+
+//post 5
+// FrontEnd, js
+Route::get('/responsive-dropdown-menu-with-submenu', function () {
+    return view('Posts.post_5');
+})->name('Single_Post_5');
+
+
+//post 6
+// FrontEnd, js
+Route::get('/unit-converter-Javascript', function () {
+    return view('Posts.post_6');
+})->name('Single_Post_6');
+
+//post 7
+// BackEnd, MySQL
+Route::get('/important-mysql-short-note-pdf-for-beginners', function () {
+    return view('Posts.post_7');
+})->name('Single_Post_7');
 
 
 
