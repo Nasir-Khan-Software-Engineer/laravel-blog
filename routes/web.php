@@ -146,6 +146,20 @@ Route::get('/important-mysql-short-note-pdf-for-beginners', function () {
 })->name('Single_Post_7');
 
 
+// post 8
+// BackEnd, MySQL
+Route::get('/how-to-create-a-table-in-mysql', function () {
+    return view('Posts.post_8');
+})->name('Single_Post_8');
+
+
+// post 9
+// BackEnd, MySQL
+Route::get('/parent-child-table-in-sql', function () {
+    return view('Posts.post_9');
+})->name('Single_Post_9');
+
+
 
 // //post 5
 // // Other, SEO

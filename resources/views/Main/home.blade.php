@@ -98,6 +98,27 @@
 						</div>
 						{{-- // end single post --}}
 
+						<div class="col-lg-4 masonry-item ">
+							<div class="standard-post post without-sidebar-post">
+								<div class="down-content">
+									<img class="img-fluid" src="https://www.admin.insidethediv.com/assets/img/post/post_10-26-06-2021-12-09-04am.gif" alt="create table in sql">
+									<a href="{{route('Single_Post_8')}}">How to create a table in MySQL with example code</a>
+								</div>
+							</div>
+						</div>
+						{{-- // end single post --}}						
+
+
+						<div class="col-lg-4 masonry-item ">
+							<div class="standard-post post without-sidebar-post">
+								<div class="down-content">
+									<img class="img-fluid" src="https://www.admin.insidethediv.com/assets/img/post/post_11-26-06-2021-12-24-20am.gif" alt="Parent and child table in SQL">
+									<a href="{{route('Single_Post_9')}}">Parent and child table in SQL with code example</a>
+								</div>
+							</div>
+						</div>
+						{{-- // end single post --}}
+
 
 
 					</div>
