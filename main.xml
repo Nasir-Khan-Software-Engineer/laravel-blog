@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>https://www.insidethediv.com/</loc>
+  <lastmod>2021-06-27</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+
+<url>
+  <loc>https://www.insidethediv.com/our-service</loc>
+  <lastmod>2021-06-27</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+
+<url>
+  <loc>https://www.insidethediv.com/contact</loc>
+  <lastmod>2021-06-27</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+
+<url>
+  <loc>https://www.insidethediv.com/about</loc>
+  <lastmod>2021-06-27</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+
+<url>
+  <loc>https://www.insidethediv.com/terms-and-condition</loc>
+  <lastmod>2021-06-27</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+
+<url>
+  <loc>https://www.insidethediv.com/privacy-policy</loc>
+  <lastmod>2021-06-27</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+
+<url>
+  <loc>https://www.insidethediv.com/info/valid-email</loc>
+  <lastmod>2021-06-27</lastmod>
+  <changefreq>weekly</changefreq>
+
+</url>
+
+
+</urlset>

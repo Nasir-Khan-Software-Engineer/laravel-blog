@@ -1,8 +1,8 @@
 @extends('Layouts.Single-Post.Single-Post')
 
 @section('SEO')
-<title>How to catch CSS pseudo element using javaScript</title>
-<meta name="description" content="Using javascript we can easily catch HTML elements, also we can change the style of an HTML element using javascript easily but how can we play with CSS pseudo-element? In this post, I will show you how can we catch CSS pseudo-element using javascript.">
+<title>How to select CSS pseudo element using javaScript</title>
+<meta name="description" content="Using javascript we can easily select HTML elements, also we can change the style of an HTML element using javascript easily but how can we play with CSS pseudo-element? In this post, I will show you how can we select CSS pseudo-element using javascript.">
 <meta name="keywords" content="HTML, CSS, JavaScript, php">
 @endsection
 
@@ -20,17 +20,17 @@
 
 
 @section('cover-image')
-{{-- <img src="{{asset('assets/image/posts/css-pseudo-element-in-javascript.jpg')}}" alt="How to catch CSS pseudo element using javaScript"> --}}
+{{-- <img src="{{asset('assets/image/posts/css-pseudo-element-in-javascript.jpg')}}" alt="How to select CSS pseudo element using javaScript"> --}}
 {{-- <img src="https://via.placeholder.com/1020x400" alt=""> --}}
 @endsection
 {{-- start post content --}}
 @section('main-content')
-<h1 data-id="2" id="post-title">How to catch CSS pseudo element using javaScript</h1>
+<h1 data-id="2" id="post-title">How to select CSS pseudo element using javaScript</h1>
 <ul class="post-info">
     <li>Last Updated : 01 Jun, 2021</li>
 </ul>
 <p class="first-paragraph">
-    Using javascript we can easily catch HTML elements, also we can change the style of an HTML element using javascript easily but how can we play with CSS pseudo-element? In this post, I will show you how can we catch CSS pseudo-element using javascript.
+    Using javascript we can easily select HTML elements, also we can change the style of an HTML element using javascript easily but how can we play with CSS pseudo-element? In this post, I will show you how can we select CSS pseudo-element using javascript.
 </p>
 <br>
 <b>
@@ -67,7 +67,7 @@ font-size: var(--boxAfterFontSize,20px);
 
 </pre>
 {{-- 
-<blockquote>” Bicycle rights keytar meggings kickstarter messenger bag dreamcatcher crufix iceland bitters single-origin coffee. “</blockquote>
+<blockquote>” Bicycle rights keytar meggings kickstarter messenger bag dreamselecter crufix iceland bitters single-origin coffee. “</blockquote>
 --}}
 <h2>
     Now Get CSS pseudo-element style using javascript
@@ -93,7 +93,7 @@ font-size: var(--boxAfterFontSize,20px);
 </pre>
 <div class="live-example">
     <h2>
-        Live Example of "how to catch  catch CSS pseudo element using javaScript"
+        Live Example of "how to select  select CSS pseudo element using javaScript"
     </h2>
     <script async src="//jsfiddle.net/FreeSourceCodeBD/0xrqb5ua/10/embed/html,css,js,result/dark/"></script>
 </div>
@@ -150,7 +150,7 @@ font-size: var(--boxAfterFontSize,20px);
 
 
 @section('code')
-    <a href="{{route('Download.Page',['id'=>1,'title'=>'How to catch CSS pseudo element using javaScript'])}}" class="btn btn-danger">Download Source Code</a>
+    <a href="{{route('Download.Page',['id'=>1,'title'=>'How to select CSS pseudo element using javaScript'])}}" class="btn btn-danger">Download Source Code</a>
 @endsection
 
 @section('video')
