@@ -248,6 +248,15 @@
 							</div>
 						</div>
 						{{-- // end single post --}}
+						<div class="col-lg-4 masonry-item ">
+							<div class="standard-post post without-sidebar-post">
+								<div class="down-content">
+									<img class="img-fluid" src="https://www.admin.insidethediv.com/assets/img/post/post_14-29-06-2021-08-04-18pm.jpg" alt="Call JavaScript function after div">
+									<a href="{{route('Single_Post_12')}}">How to Call JavaScript function after div load with source code</a>
+								</div>
+							</div>
+						</div>
+						{{-- // end single post --}}
 
 
 

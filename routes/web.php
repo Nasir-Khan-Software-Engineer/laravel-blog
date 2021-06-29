@@ -175,6 +175,14 @@ Route::get('/center-image-vertically-and-horizontally', function () {
 
 
 
+// post 12
+// FrontEnd, HTML CSS
+Route::get('/call-javascript-function-after-div-load', function () {
+    return view('Posts.post_12');
+})->name('Single_Post_12');
+
+
+
 
 
 

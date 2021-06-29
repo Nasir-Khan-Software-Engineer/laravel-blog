@@ -45,8 +45,26 @@
   <loc>https://www.insidethediv.com/info/valid-email</loc>
   <lastmod>2021-06-27</lastmod>
   <changefreq>weekly</changefreq>
-
 </url>
 
+<!-- categories -->
+<url>
+  <loc>https://www.insidethediv.com/front-end/1</loc>
+  <lastmod>2021-06-27</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+
+<url>
+  <loc>https://www.insidethediv.com/back-end/1</loc>
+  <lastmod>2021-06-27</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+
+<url>
+  <loc>https://www.insidethediv.com/other/1</loc>
+  <lastmod>2021-06-27</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<!-- end categories -->
 
 </urlset>
