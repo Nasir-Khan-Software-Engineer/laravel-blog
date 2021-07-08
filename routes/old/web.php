@@ -14,11 +14,12 @@ use App\Http\Controllers\PostController;
 
 
 
-
 // main pages
 Route::get('/', function () {
     return view('Main.home');
 })->name('Home');
+
+
 
 Route::get('/about', function () {
     return view('Main.about');
@@ -40,7 +41,6 @@ Route::get('/privacy-policy', function () {
 Route::get('/our-service', function () {
     return view('Main.service');
 })->name('Service');
-
 
 
 // information
@@ -102,7 +102,6 @@ Route::get('/how-many-ways-we-can-select-html-tag-or-html-dom-elements-in-javasc
 })->name('Single_Post_1');
 
 
-
 //post 2
 // frontEnd, javascript
 Route::get('/how-to-create-popup-modal-box-in-javascript', function () {
@@ -119,34 +118,32 @@ Route::get('/onlick-popup-full-size-image-in-jquery', function () {
 
 
 
-
 //post 4
-// frontEnd, javascript
+// BackEnd, Laravel
 Route::get('/laravel-route-not-found-exception', function () {
     return view('Posts.post_4');
 })->name('Single_Post_4');
 
 
+
 //post 5
-// frontEnd, javascript
+// FrontEnd, js
 Route::get('/responsive-dropdown-menu-with-submenu', function () {
     return view('Posts.post_5');
 })->name('Single_Post_5');
 
 
 //post 6
-// frontEnd, javascript
+// FrontEnd, js
 Route::get('/unit-converter-Javascript', function () {
     return view('Posts.post_6');
 })->name('Single_Post_6');
-
 
 //post 7
 // BackEnd, MySQL
 Route::get('/important-mysql-short-note-pdf-for-beginners', function () {
     return view('Posts.post_7');
 })->name('Single_Post_7');
-
 
 
 // post 8
@@ -163,39 +160,43 @@ Route::get('/parent-child-table-in-sql', function () {
 })->name('Single_Post_9');
 
 
+// post 10
+// FrontEnd, JS
+Route::get('/select-css-pseudo-element-using-javascript', function () {
+    return view('Posts.post_10');
+})->name('Single_Post_10');
 
 
-// //post 5
-// // Other, SEO
-// Route::get('/why-developer-need-basic-seo-knowledge', function () {
-//     return view('Posts.post_5');
-// })->name('Single_Post_5');
+// post 11
+// FrontEnd, HTML CSS
+Route::get('/center-image-vertically-and-horizontally', function () {
+    return view('Posts.post_11');
+})->name('Single_Post_11');
 
-// //post 6
-// // BackEnd, PHP
-// Route::get('/upload-an-image-with-validation-using-php', function () {
-//     return view('Posts.post_6');
-// })->name('Single_Post_6');
+// post 12
+// FrontEnd, HTML CSS
+Route::get('/call-javascript-function-after-div-load', function () {
+    return view('Posts.post_12');
+})->name('Single_Post_12');
 
-// // post 7
-// // forntEnd, javascript
-// Route::get('/how-many-ways-we-can-create-object-in-javascript', function () {
-//     return view('Posts.post_7');
-// })->name('Single_Post_7');
+// post 13
+// FrontEnd, HTML CSS
+Route::get('/clickable-email-signature', function () {
+    return view('Posts.post_13');
+})->name('Single_Post_13');
+
+// post 14
+// FrontEnd, javascript
+Route::get('/change-background-image-using-javascript', function () {
+    return view('Posts.post_14');
+})->name('Single_Post_14');
 
 
-// // post 8
-// // forntEnd, javascript
-// Route::get('/how-many-ways-we-can-select-html-dom-elements-in-javascript', function () {
-//     return view('Posts.post_8');
-// })->name('Single_Post_8');
 
 
-// // post 9
-// // forntEnd, CSS
-// Route::get('/pure-css-animated-dropdown-buttons-with-source-code', function () {
-//     return view('Posts.post_9');
-// })->name('Single_Post_9');
+
+
+
 
 
 
@@ -203,12 +204,3 @@ Route::get('/parent-child-table-in-sql', function () {
 Route::any('{query}', 
   function() { return back(); })
   ->where('query', '.*');
-
-
-
-
-
-
-
-
-

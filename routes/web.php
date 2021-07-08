@@ -181,6 +181,26 @@ Route::get('/call-javascript-function-after-div-load', function () {
     return view('Posts.post_12');
 })->name('Single_Post_12');
 
+// post 13
+// FrontEnd, HTML CSS
+Route::get('/clickable-email-signature', function () {
+    return view('Posts.post_13');
+})->name('Single_Post_13');
+
+
+// post 14
+// FrontEnd, javascript
+Route::get('/change-background-image-using-javascript', function () {
+    return view('Posts.post_14');
+})->name('Single_Post_14');
+
+
+// post 15
+// FrontEnd, javascript
+Route::get('/create-responsive-website-using-only-bootstrap-5', function () {
+    return view('Posts.post_15');
+})->name('Single_Post_15');
+
 
 
 

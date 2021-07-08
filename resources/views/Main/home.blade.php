@@ -1,9 +1,5 @@
 @extends('Layouts.master')
 
-
-
-
-
 @section('SEO')
 
 <title>InsideTheDiv</title>
@@ -45,21 +41,47 @@
 					<div class="row masonry-layout normal-col-gap">
 
 
+						<div class="col-lg-4 masonry-item ">
+							<div class="standard-post post without-sidebar-post">
+								<div class="down-content">
+								    <img class="img-fluid" src="https://www.admin.insidethediv.com/assets/img/post/post_17_1-07-07-2021-10-23-59am.gif" alt="Bootstrap-5 website">
+									<a href="{{route('Single_Post_15')}}">Create a Responsive website using only bootstrap 5</a>
+								</div>
+							</div>
+						</div>
+						{{-- // end single post --}}
+
 
 						<div class="col-lg-4 masonry-item ">
-
 							<div class="standard-post post without-sidebar-post">
-
 								<div class="down-content">
-
-								    <img class="img-fluid" src="https://www.admin.insidethediv.com/assets/img/post/post_3-15-06-2021-07-09-33pm.jpg" alt="HTML DOM Example">
-
-									<a href="{{route('Single_Post_1')}}">How many ways we can select HTML tag or HTML DOM elements in javascript?</a>
-
+								    <img class="img-fluid" src="https://www.admin.insidethediv.com/assets/img/post/post_16-07-07-2021-01-19-47am.gif" alt="change background image using javascript">
+									<a href="{{route('Single_Post_14')}}">How to change background image using javascript</a>
 								</div>
-
 							</div>
+						</div>
+						{{-- // end single post --}}
 
+
+						<div class="col-lg-4 masonry-item ">
+							<div class="standard-post post without-sidebar-post">
+								<div class="down-content">
+								    <img class="img-fluid" src="https://www.admin.insidethediv.com/assets/img/post/post_15-03-07-2021-09-13-31pm.gif" alt="HTML clickable email signature">
+									<a href="{{route('Single_Post_13')}}">How to create HTML clickable email signature with social icons</a>
+								</div>
+							</div>
+						</div>
+						{{-- // end single post --}}
+
+
+
+						<div class="col-lg-4 masonry-item ">
+							<div class="standard-post post without-sidebar-post">
+								<div class="down-content">
+								    <img class="img-fluid" src="https://www.admin.insidethediv.com/assets/img/post/post_3-15-06-2021-07-09-33pm.jpg" alt="HTML DOM Example">
+									<a href="{{route('Single_Post_1')}}">How many ways we can select HTML tag or HTML DOM elements in javascript?</a>
+								</div>
+							</div>
 						</div>
 
 						{{-- // end single post --}}
