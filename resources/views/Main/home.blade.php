@@ -40,6 +40,27 @@
 
 					<div class="row masonry-layout normal-col-gap">
 
+						<div class="col-lg-4 masonry-item ">
+							<div class="standard-post post without-sidebar-post">
+								<div class="down-content">
+								    <img class="img-fluid" src="https://www.admin.insidethediv.com/assets/img/post/post_19-28-07-2021-04-53-07pm.gif" alt="get all files in directory">
+									<a href="{{route('Single_Post_17')}}">PHP get all files in directory with extension</a>
+								</div>
+							</div>
+						</div>
+						{{-- // end single post --}}
+
+
+						<div class="col-lg-4 masonry-item ">
+							<div class="standard-post post without-sidebar-post">
+								<div class="down-content">
+								    <img class="img-fluid" src="https://www.admin.insidethediv.com/assets/img/post/post_18-09-07-2021-06-27-09am.gif" alt="javascript digital clock">
+									<a href="{{route('Single_Post_16')}}">Simple JavaScript Project with source code | Digital clock</a>
+								</div>
+							</div>
+						</div>
+						{{-- // end single post --}}
+
 
 						<div class="col-lg-4 masonry-item ">
 							<div class="standard-post post without-sidebar-post">
@@ -50,7 +71,6 @@
 							</div>
 						</div>
 						{{-- // end single post --}}
-
 
 						<div class="col-lg-4 masonry-item ">
 							<div class="standard-post post without-sidebar-post">

@@ -202,6 +202,20 @@ Route::get('/create-responsive-website-using-only-bootstrap-5', function () {
 })->name('Single_Post_15');
 
 
+// post 16
+// FrontEnd, javascript
+Route::get('/javascript-digital-clock', function () {
+    return view('Posts.post_16');
+})->name('Single_Post_16');
+
+
+// post 17
+// BackEnd, PHP
+Route::get('/php-get-all-files-in-directory-with-extension', function () {
+    return view('Posts.post_17');
+})->name('Single_Post_17');
+
+
 
 
 
